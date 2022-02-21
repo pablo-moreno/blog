@@ -1,0 +1,15 @@
+{
+  "name": "blog.spoookydev.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@jsilva-pt/nuxt-content-theme-blog": "^0.6.1",
+    "nuxt": "^2.15.1"
+  }
+}
