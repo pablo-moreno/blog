@@ -5,8 +5,8 @@ const baseUrl = 'https://blog.spookydev.com'
 const publicRuntimeConfig = {
   baseUrl: 'https://blog.spookydev.com',
 
-  logoLight: '/logo-light.svg',
-  logoDark: '/logo-dark.svg',
+  logoLight: '/itsme.png',
+  logoDark: '/itsme.png',
 
   githubOwner: 'pablo-moreno',
   githubRepository: 'blog',
@@ -14,6 +14,9 @@ const publicRuntimeConfig = {
 
   twitterUsername: 'spookydeveloper',
   linkedinUsername: 'pablo-moreno-pradas',
+
+  sharingBlogPostEnabled: true,
+  sharingDefaultHashtags: ['spookydev'],
 }
 
 export default theme({
