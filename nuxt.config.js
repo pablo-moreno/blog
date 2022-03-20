@@ -1,16 +1,16 @@
 import theme from '@jsilva-pt/nuxt-content-theme-blog'
 
-const baseUrl = 'https://blog.spookydev.com'
+const baseUrl = 'https://spookydev.com'
 
 const publicRuntimeConfig = {
-  baseUrl: 'https://blog.spookydev.com',
+  baseUrl: 'https://spookydev.com',
 
   logoLight: '/itsme.png',
   logoDark: '/itsme.png',
 
   githubOwner: 'pablo-moreno',
   githubRepository: 'blog',
-  githubMainBranch: 'master',
+  githubMainBranch: 'main',
 
   twitterUsername: 'spookydeveloper',
   linkedinUsername: 'pablo-moreno-pradas',

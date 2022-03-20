@@ -6,6 +6,8 @@ image: welcome/content-dark.svg
 authors:
   - name: Pablo Moreno
     avatarUrl: itsme.png
+tags:
+  - kubernetes
 ---
 
 ## Hello Blog

@@ -23,4 +23,11 @@ module.exports = {
       },
     },
   },
+  searchBar: {
+    title: 'Buscar',
+    searching: 'Buscando...'
+  },
+  blogPostShare: {
+    share: 'Compartir'
+  }
 }

@@ -8,7 +8,7 @@
       @keydown.up="decrement"
       @keydown.enter="go"
     >
-      <label for="search" class="sr-only">Buscar</label>
+      <label for="search" class="sr-only">{{ $t('searchBar.title') }}</label>
       <div class="relative">
         <div
           class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
@@ -21,7 +21,7 @@
           v-model="q"
           class="block w-full pl-10 pr-3 py-2 truncate leading-5 placeholder-gray-500 border border-transparent text-gray-700 dark:text-white dark-focus:text-white focus:border-gray-300 dark-focus:border-gray-700 rounded-md focus:outline-none focus:bg-white dark-focus:bg-gray-900 bg-gray-200 dark:bg-gray-800"
           :class="{ 'rounded-b-none': focus && (searching || results.length) }"
-          placeholder="Buscar"
+          :placeholder="$t('searchBar.title')"
           type="search"
           autocomplete="off"
           @focus="onFocus"
@@ -35,7 +35,7 @@
       :class="{ 'rounded-t-none': focus && (searching || results.length) }"
       style="margin-top: 37px"
     >
-      <li v-if="searching && !results.length" class="px-4 py-2">Buscando...</li>
+      <li v-if="searching && !results.length" class="px-4 py-2">{{ $t('searchBar.searching') }}</li>
       <li
         v-for="(result, index) of results"
         :key="result.slug"
